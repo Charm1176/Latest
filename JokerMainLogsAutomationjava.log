@@ -1,0 +1,6 @@
+2025-03-05 00:50:00,018 [main] INFO Main - invoking browser
+2025-03-05 01:00:04,006 [main] INFO Main - verify LoginPage  emailTextBox displayed
+2025-03-05 01:00:07,432 [main] INFO Main - verify LoginPage passwordText Displayed
+2025-03-05 01:00:15,768 [main] INFO Main - Verify LoginPage LoginButton Displayed
+2025-03-05 01:00:27,038 [main] INFO Main - Verify accountPage
+2025-03-05 01:00:27,041 [main] INFO Main - closing browser

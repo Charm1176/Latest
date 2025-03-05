@@ -1,0 +1,11 @@
+2025-03-05 01:05:45,880 [main] INFO Main - verify LoginPage  emailTextBox displayed
+2025-03-05 01:05:50,782 [main] INFO Main - verify LoginPage passwordText Displayed
+2025-03-05 01:05:59,550 [main] INFO Main - Verify LoginPage LoginButton Displayed
+2025-03-05 01:06:11,022 [main] INFO Main - Verify accountPage
+2025-03-05 01:06:11,024 [main] INFO Main - closing browser
+2025-03-05 01:06:20,493 [main] INFO Main - Verify CheckingDesktopElement
+2025-03-05 01:06:20,496 [main] INFO Main - closing browser
+2025-03-05 01:06:30,211 [main] INFO Main - Verify URl
+2025-03-05 01:06:30,243 [main] INFO Main - closing browser
+2025-03-05 01:06:41,163 [main] INFO Main - Verify URl
+2025-03-05 01:06:41,395 [main] INFO Main - closing browser
