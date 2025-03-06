@@ -23,3 +23,28 @@
 2025-03-05 12:01:37,542 [main] INFO Main - Browser invoiked  chrome
 2025-03-05 12:01:38,816 [main] INFO Main - Verify URl
 2025-03-05 12:01:38,999 [main] INFO Main - closing browser
+2025-03-06 17:15:50,171 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:15:50,289 [main] INFO Main - Verify HomePage DropdownSection
+2025-03-06 17:15:53,440 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:15:53,736 [main] INFO Main - Verify HomePage loginDropDown
+2025-03-06 17:15:56,488 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:15:56,929 [main] INFO Main - verify LoginPage  emailTextBox displayed
+2025-03-06 17:15:57,019 [main] INFO Main - browser closed
+2025-03-06 17:15:59,636 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:00,110 [main] INFO Main - verify LoginPage passwordText Displayed
+2025-03-06 17:16:00,202 [main] INFO Main - browser closed
+2025-03-06 17:16:02,683 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:03,170 [main] INFO Main - Verify LoginPage LoginButton Displayed
+2025-03-06 17:16:03,273 [main] INFO Main - browser closed
+2025-03-06 17:16:06,798 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:08,430 [main] INFO Main - Verified accountPage
+2025-03-06 17:16:08,433 [main] INFO Main - closing browser
+2025-03-06 17:16:12,076 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:13,922 [main] INFO Main - Verified CheckingDesktopElement
+2025-03-06 17:16:13,928 [main] INFO Main - closing browser
+2025-03-06 17:16:17,581 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:19,133 [main] INFO Main - Verify URl
+2025-03-06 17:16:19,212 [main] INFO Main - closing browser
+2025-03-06 17:16:22,965 [main] INFO Main - Browser invoiked  chrome
+2025-03-06 17:16:24,296 [main] INFO Main - Verify URl
+2025-03-06 17:16:24,555 [main] INFO Main - closing browser

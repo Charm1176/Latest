@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.632" tests="9" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.796" tests="9" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="C:\Joker\Main\target\test-classes;C:\Joker\Main\target\classes;C:\Users\ernik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ernik\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ernik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ernik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ernik\.m2\repository\org\java-websocket\Java-WebSocket\1.5.3\Java-WebSocket-1.5.3.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\ernik\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\ernik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\ernik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ernik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ernik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ernik\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ernik\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ernik\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ernik\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ernik\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ernik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ernik\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ernik\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ernik\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ernik\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ernik\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ernik\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.class.path" value="C:\Joker\Main\target\test-classes;C:\Joker\Main\target\classes;C:\Users\ernik\.m2\repository\org\apache\maven\maven-model\3.9.9\maven-model-3.9.9.jar;C:\Users\ernik\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\ernik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ernik\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ernik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ernik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ernik\.m2\repository\org\java-websocket\Java-WebSocket\1.5.3\Java-WebSocket-1.5.3.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\ernik\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\ernik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\ernik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ernik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ernik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ernik\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ernik\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ernik\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ernik\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ernik\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ernik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ernik\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ernik\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ernik\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ernik\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ernik\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ernik\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\jdk17\jdk-17\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\ernik\AppData\Local\Temp\surefire9810573134955060195\surefirebooter-20250305120105487_3.jar C:\Users\ernik\AppData\Local\Temp\surefire9810573134955060195 2025-03-05T12-01-04_984-jvmRun1 surefire-20250305120105487_1tmp surefire_0-20250305120105487_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ernik\AppData\Local\Temp\surefire9414849035673017287\surefirebooter6795874587202059062.jar C:\Users\ernik\AppData\Local\Temp\surefire9414849035673017287 2025-03-06T17-15-37_398-jvmRun1 surefire15351653940341673453tmp surefire_017291267997329105377tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Joker\Main\target\test-classes;C:\Joker\Main\target\classes;C:\Users\ernik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ernik\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ernik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ernik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ernik\.m2\repository\org\java-websocket\Java-WebSocket\1.5.3\Java-WebSocket-1.5.3.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\ernik\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\ernik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\ernik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ernik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ernik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ernik\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ernik\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ernik\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ernik\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ernik\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ernik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ernik\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ernik\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ernik\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ernik\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ernik\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ernik\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Joker\Main\target\test-classes;C:\Joker\Main\target\classes;C:\Users\ernik\.m2\repository\org\apache\maven\maven-model\3.9.9\maven-model-3.9.9.jar;C:\Users\ernik\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\ernik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ernik\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ernik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ernik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ernik\.m2\repository\org\java-websocket\Java-WebSocket\1.5.3\Java-WebSocket-1.5.3.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ernik\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\ernik\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\ernik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\ernik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ernik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ernik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ernik\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ernik\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ernik\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\ernik\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ernik\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\ernik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ernik\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ernik\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ernik\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ernik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ernik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ernik\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ernik\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ernik\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ernik\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ernik\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ernik\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ernik"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ernik\AppData\Local\Temp\surefire9810573134955060195\surefirebooter-20250305120105487_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ernik\AppData\Local\Temp\surefire9414849035673017287\surefirebooter6795874587202059062.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -51,14 +51,14 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\jdk17\jdk-17\jdk-17.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Maven\apache-maven-3.8.8\apache-maven-3.8.8\bin;C:\jdk17\jdk-17\jdk-17.0.12\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\ernik\AppData\Local\GitHubDesktop\cmd;C:\Users\ernik\AppData\Local\GitHubDesktop\bin;C:\Users\ernik\AppData\Local\GitHubDesktop\app-3.3.8\resources\app\git\cmd;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin;C:\Program Files\nodejs\;C:\Users\ernik\AppData\Roaming\npm;C:\Users\ernik\AppData\Local\Android\Sdk\platform-tools;%ANDRIOD_HOME%\build-tools;%ANDRIOD_HOME%\platforms;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ernik\AppData\Local\Microsoft\WindowsApps;C:\Users\ernik\AppData\Local\GitHubDesktop\bin;C:\Users\ernik\AppData\Roaming\npm;C:\Users\ernik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.6\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Users\ernik\OneDrive\Desktop;;."/>
+    <property name="java.library.path" value="C:\jdk17\jdk-17\jdk-17.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\ernik\AppData\Local\GitHubDesktop\cmd;C:\Users\ernik\AppData\Local\GitHubDesktop\bin;C:\Users\ernik\AppData\Local\GitHubDesktop\app-3.3.8\resources\app\git\cmd;C:\Program Files\nodejs\;C:\Users\ernik\AppData\Roaming\npm;C:\Users\ernik\AppData\Local\Android\Sdk\platform-tools;%ANDRIOD_HOME%\build-tools;%ANDRIOD_HOME%\platforms;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ernik\AppData\Local\Microsoft\WindowsApps;C:\Users\ernik\AppData\Local\GitHubDesktop\bin;C:\Users\ernik\AppData\Roaming\npm;C:\Users\ernik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.6\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Users\ernik\OneDrive\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyDropdownSection" classname="com.main.testcases.HomepageTest" time="0.077">
+  <testcase name="verifyDropdownSection" classname="com.main.testcases.HomepageTest" time="0.083">
     <system-out><![CDATA[ INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (HomepageTest.java:42)- Verify HomePage DropdownSection
 ]]></system-out>
@@ -70,17 +70,17 @@ log4j:WARN Document root element "Configuration", must match DOCTYPE root "null"
 log4j:WARN Continuable parsing error 2 and column 30
 log4j:WARN Document is invalid: no grammar found.
 log4j:ERROR DOM element is - not a <log4j:configuration> element.
-Mar 05, 2025 12:01:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:15:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:15:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginDropdown" classname="com.main.testcases.HomepageTest" time="0.185">
+  <testcase name="verifyLoginDropdown" classname="com.main.testcases.HomepageTest" time="0.291">
     <system-out><![CDATA[ INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (HomepageTest.java:48)- Verify HomePage loginDropDown
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:11 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:15:50 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -99,17 +99,17 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:15:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:15:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkingEmailTextBox" classname="com.main.testcases.LoginPageTest" time="0.069">
+  <testcase name="checkingEmailTextBox" classname="com.main.testcases.LoginPageTest" time="0.043">
     <system-out><![CDATA[ INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (LoginPageTest.java:43)- verify LoginPage  emailTextBox displayed
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:15:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -128,18 +128,18 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:15:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:15:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkingPasswordTextBox" classname="com.main.testcases.LoginPageTest" time="0.062">
+  <testcase name="checkingPasswordTextBox" classname="com.main.testcases.LoginPageTest" time="0.059">
     <system-out><![CDATA[ INFO [main] (LoginPageTest.java:37)- browser closed
  INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (LoginPageTest.java:49)- verify LoginPage passwordText Displayed
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:17 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:15:57 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -158,18 +158,18 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:15:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:15:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkingMainLoginButton" classname="com.main.testcases.LoginPageTest" time="0.05">
+  <testcase name="checkingMainLoginButton" classname="com.main.testcases.LoginPageTest" time="0.06">
     <system-out><![CDATA[ INFO [main] (LoginPageTest.java:37)- browser closed
  INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (LoginPageTest.java:55)- Verify LoginPage LoginButton Displayed
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:16:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -188,18 +188,18 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:16:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:16:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkingAccountpageElement" classname="com.main.testcases.AccountPageTest" time="0.051">
+  <testcase name="checkingAccountpageElement" classname="com.main.testcases.AccountPageTest" time="0.055">
     <system-out><![CDATA[ INFO [main] (LoginPageTest.java:37)- browser closed
  INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (AccountPageTest.java:54)- Verified accountPage
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:22 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:16:03 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -218,20 +218,39 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:16:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:16:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkingDesktopElement" classname="com.main.testcases.AccountPageTest" time="0.035">
+  <testcase name="checkingDesktopElement" classname="com.main.testcases.AccountPageTest" time="0.092">
     <system-out><![CDATA[ INFO [main] (AccountPageTest.java:41)- closing browser
  INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (AccountPageTest.java:60)- Verified CheckingDesktopElement
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 06, 2025 5:16:08 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+Mar 06, 2025 5:16:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:16:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
@@ -241,59 +260,7 @@ WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need t
  INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
  INFO [main] (AccountPageTest.java:47)- Verify URl
 ]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyUrl" classname="com.main.testcases.AccountPageTest" time="0.183">
-    <failure message="expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.main.testcases.AccountPageTest.verifyUrl(AccountPageTest.java:48)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[ INFO [main] (AccountPageTest.java:41)- closing browser
- INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
- INFO [main] (AccountPageTest.java:47)- Verify URl
-]]></system-out>
-    <system-err><![CDATA[Mar 05, 2025 12:01:34 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 06, 2025 5:16:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -312,9 +279,42 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
 
-Mar 05, 2025 12:01:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 5:16:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 133
-Mar 05, 2025 12:01:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 06, 2025 5:16:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUrl" classname="com.main.testcases.AccountPageTest" time="0.259">
+    <failure message="expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]
+	at com.main.testcases.AccountPageTest.verifyUrl(AccountPageTest.java:48)
+]]></failure>
+    <system-out><![CDATA[ INFO [main] (AccountPageTest.java:41)- closing browser
+ INFO [main] (BaseTest.java:67)- Browser invoiked  chrome
+ INFO [main] (AccountPageTest.java:47)- Verify URl
+]]></system-out>
+    <system-err><![CDATA[Mar 06, 2025 5:16:19 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+Mar 06, 2025 5:16:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Mar 06, 2025 5:16:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 133.0.6943.142. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
