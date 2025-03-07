@@ -9,9 +9,9 @@
     <classes>
       <class name="com.main.testcases.AccountPageTest">
         <methods>
+          <include name="checkingDesktopElement"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyUrl"/>
         </methods>
       </class> <!-- com.main.testcases.AccountPageTest -->
     </classes>

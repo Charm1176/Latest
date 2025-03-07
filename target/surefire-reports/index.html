@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">9 methods,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.main.testcases.AccountPageTest" class="method navigator-link" hash-for-method="checkingDesktopElement">checkingDesktopElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -153,6 +167,47 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.main.testcases.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkingDesktopElement">
+                  </a> <!-- checkingDesktopElement -->
+                  <span class="method-name">checkingDesktopElement</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b4560d247435c4043c32874d1946592, isElementDisplayed {id=f.2BE1D3F8598808863D6A45B5E1CD88C0.d.0028A732CA2E60B33B90D92F51A267FE.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\ernik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55835/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9b4560d247435c4043c32874d1946592)] -&gt; xpath: //li//a[text()=&apos;Desktops&apos;]]
+Session ID: 9b4560d247435c4043c32874d1946592
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at com.main.pages.AccountPage.isDeskTopSectionVisible(AccountPage.java:37)
+	at com.main.testcases.AccountPageTest.checkingDesktopElement(AccountPageTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -291,44 +346,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkingAccountpageElement')
+data.setCell(0, 1, 'checkingDesktopElement')
 data.setCell(0, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(0, 3, 628);
+data.setCell(0, 3, 618);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLoginDropdown')
-data.setCell(1, 2, 'com.main.testcases.HomepageTest')
-data.setCell(1, 3, 227);
+data.setCell(1, 1, 'checkingAccountpageElement')
+data.setCell(1, 2, 'com.main.testcases.AccountPageTest')
+data.setCell(1, 3, 599);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyUrl')
 data.setCell(2, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(2, 3, 151);
+data.setCell(2, 3, 535);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyDropdownSection')
+data.setCell(3, 1, 'verifyLoginDropdown')
 data.setCell(3, 2, 'com.main.testcases.HomepageTest')
-data.setCell(3, 3, 97);
+data.setCell(3, 3, 303);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkingPasswordTextBox')
-data.setCell(4, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(4, 3, 61);
+data.setCell(4, 1, 'verifyDropdownSection')
+data.setCell(4, 2, 'com.main.testcases.HomepageTest')
+data.setCell(4, 3, 90);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkingMainLoginButton')
+data.setCell(5, 1, 'checkingEmailTextBox')
 data.setCell(5, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(5, 3, 48);
+data.setCell(5, 3, 67);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'checkingDesktopElement')
 data.setCell(6, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(6, 3, 47);
+data.setCell(6, 3, 64);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkingEmailTextBox')
+data.setCell(7, 1, 'checkingPasswordTextBox')
 data.setCell(7, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(7, 3, 37);
+data.setCell(7, 3, 56);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkingMainLoginButton')
+data.setCell(8, 2, 'com.main.testcases.LoginPageTest')
+data.setCell(8, 3, 51);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -361,101 +420,113 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDropdownSection</span>
-                <span class="method-start">8044 ms</span>
+                <span class="method-start">5246 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8144 ms</span>
+                <span class="method-start">5339 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">8274 ms</span>
+                <span class="method-start">5453 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginDropdown</span>
-                <span class="method-start">11582 ms</span>
+                <span class="method-start">11224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11809 ms</span>
+                <span class="method-start">11528 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.main.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">11915 ms</span>
+                <span class="method-start">11682 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingEmailTextBox</span>
-                <span class="method-start">15109 ms</span>
+                <span class="method-start">16480 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15147 ms</span>
+                <span class="method-start">16548 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15240 ms</span>
+                <span class="method-start">16663 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingPasswordTextBox</span>
-                <span class="method-start">17988 ms</span>
+                <span class="method-start">20557 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18049 ms</span>
+                <span class="method-start">20614 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18184 ms</span>
+                <span class="method-start">20711 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingMainLoginButton</span>
-                <span class="method-start">21220 ms</span>
+                <span class="method-start">25016 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21269 ms</span>
+                <span class="method-start">25067 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.main.testcases.AccountPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">21364 ms</span>
+                <span class="method-start">25181 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingAccountpageElement</span>
-                <span class="method-start">25257 ms</span>
+                <span class="method-start">30195 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25886 ms</span>
+                <span class="method-start">30796 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">26007 ms</span>
+                <span class="method-start">30922 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingDesktopElement</span>
-                <span class="method-start">31704 ms</span>
+                <span class="method-start">35807 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31751 ms</span>
+                <span class="method-start">36436 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">31880 ms</span>
+                <span class="method-start">36598 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyUrl</span>
-                <span class="method-start">36901 ms</span>
+                <span class="method-name">checkingDesktopElement</span>
+                <span class="method-start">41526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37052 ms</span>
+                <span class="method-start">41592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUrl</span>
+                <span class="method-start">46364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46899 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
