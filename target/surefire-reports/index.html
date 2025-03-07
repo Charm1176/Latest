@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,35 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,  1 skipped,  7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.main.testcases.AccountPageTest" class="method navigator-link" hash-for-method="verifyUrl">verifyUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.main.testcases.AccountPageTest" class="method navigator-link" hash-for-method="verifyUrl">verifyUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -164,6 +136,11 @@
                         <a href="#" panel-name="suite-Suite" title="com.main.testcases.HomepageTest" class="method navigator-link" hash-for-method="verifyLoginDropdown">verifyLoginDropdown</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.main.testcases.AccountPageTest" class="method navigator-link" hash-for-method="verifyUrl">verifyUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -176,64 +153,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.main.testcases.AccountPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUrl">
-                  </a> <!-- verifyUrl -->
-                  <span class="method-name">verifyUrl</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]
-	at com.main.testcases.AccountPageTest.verifyUrl(AccountPageTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.main.testcases.AccountPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUrl">
-                  </a> <!-- verifyUrl -->
-                  <span class="method-name">verifyUrl</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]
-	at com.main.testcases.AccountPageTest.verifyUrl(AccountPageTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.main.testcases.AccountPageTest</span>
+              <span class="class-name">com.main.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkingAccountpageElement">
-                  </a> <!-- checkingAccountpageElement -->
-                  <span class="method-name">checkingAccountpageElement</span>
+                  <a name="checkingEmailTextBox">
+                  </a> <!-- checkingEmailTextBox -->
+                  <span class="method-name">checkingEmailTextBox</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkingDesktopElement">
-                  </a> <!-- checkingDesktopElement -->
-                  <span class="method-name">checkingDesktopElement</span>
+                  <a name="checkingMainLoginButton">
+                  </a> <!-- checkingMainLoginButton -->
+                  <span class="method-name">checkingMainLoginButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkingPasswordTextBox">
+                  </a> <!-- checkingPasswordTextBox -->
+                  <span class="method-name">checkingPasswordTextBox</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,28 +207,28 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.main.testcases.LoginPageTest</span>
+              <span class="class-name">com.main.testcases.AccountPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkingEmailTextBox">
-                  </a> <!-- checkingEmailTextBox -->
-                  <span class="method-name">checkingEmailTextBox</span>
+                  <a name="checkingAccountpageElement">
+                  </a> <!-- checkingAccountpageElement -->
+                  <span class="method-name">checkingAccountpageElement</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkingMainLoginButton">
-                  </a> <!-- checkingMainLoginButton -->
-                  <span class="method-name">checkingMainLoginButton</span>
+                  <a name="checkingDesktopElement">
+                  </a> <!-- checkingDesktopElement -->
+                  <span class="method-name">checkingDesktopElement</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkingPasswordTextBox">
-                  </a> <!-- checkingPasswordTextBox -->
-                  <span class="method-name">checkingPasswordTextBox</span>
+                  <a name="verifyUrl">
+                  </a> <!-- verifyUrl -->
+                  <span class="method-name">verifyUrl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -347,48 +291,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLoginDropdown')
 data.setCell(0, 2, 'com.main.testcases.HomepageTest')
-data.setCell(0, 3, 290);
+data.setCell(0, 3, 225);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkingDesktopElement')
-data.setCell(1, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(1, 3, 91);
+data.setCell(1, 1, 'verifyDropdownSection')
+data.setCell(1, 2, 'com.main.testcases.HomepageTest')
+data.setCell(1, 3, 83);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyDropdownSection')
-data.setCell(2, 2, 'com.main.testcases.HomepageTest')
-data.setCell(2, 3, 83);
+data.setCell(2, 1, 'checkingEmailTextBox')
+data.setCell(2, 2, 'com.main.testcases.LoginPageTest')
+data.setCell(2, 3, 68);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyUrl')
-data.setCell(3, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(3, 3, 72);
+data.setCell(3, 1, 'checkingPasswordTextBox')
+data.setCell(3, 2, 'com.main.testcases.LoginPageTest')
+data.setCell(3, 3, 55);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'checkingMainLoginButton')
 data.setCell(4, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(4, 3, 62);
+data.setCell(4, 3, 52);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkingPasswordTextBox')
-data.setCell(5, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(5, 3, 60);
+data.setCell(5, 1, 'checkingAccountpageElement')
+data.setCell(5, 2, 'com.main.testcases.AccountPageTest')
+data.setCell(5, 3, 33);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkingAccountpageElement')
+data.setCell(6, 1, 'checkingDesktopElement')
 data.setCell(6, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(6, 3, 57);
+data.setCell(6, 3, 28);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyUrl')
 data.setCell(7, 2, 'com.main.testcases.AccountPageTest')
-data.setCell(7, 3, 45);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkingEmailTextBox')
-data.setCell(8, 2, 'com.main.testcases.LoginPageTest')
-data.setCell(8, 3, 43);
+data.setCell(7, 3, 9);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 803 ms</span>
+              <span class="suite-total-time">Total running time: 553 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -421,115 +361,101 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDropdownSection</span>
-                <span class="method-start">9019 ms</span>
+                <span class="method-start">6122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9106 ms</span>
+                <span class="method-start">6208 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9221 ms</span>
+                <span class="method-start">6344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginDropdown</span>
-                <span class="method-start">12259 ms</span>
+                <span class="method-start">9103 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12550 ms</span>
+                <span class="method-start">9329 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.main.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">12680 ms</span>
+                <span class="method-start">9425 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingEmailTextBox</span>
-                <span class="method-start">15699 ms</span>
+                <span class="method-start">12427 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15743 ms</span>
+                <span class="method-start">12496 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15833 ms</span>
+                <span class="method-start">12599 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingPasswordTextBox</span>
-                <span class="method-start">18862 ms</span>
+                <span class="method-start">15799 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18923 ms</span>
+                <span class="method-start">15854 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19016 ms</span>
+                <span class="method-start">15943 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingMainLoginButton</span>
-                <span class="method-start">21922 ms</span>
+                <span class="method-start">18859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21985 ms</span>
+                <span class="method-start">18912 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.main.testcases.AccountPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">22087 ms</span>
+                <span class="method-start">19021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingAccountpageElement</span>
-                <span class="method-start">27186 ms</span>
+                <span class="method-start">23039 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27244 ms</span>
+                <span class="method-start">23073 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">27393 ms</span>
+                <span class="method-start">23151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkingDesktopElement</span>
-                <span class="method-start">32645 ms</span>
+                <span class="method-start">27234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32738 ms</span>
+                <span class="method-start">27263 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32875 ms</span>
+                <span class="method-start">27341 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUrl</span>
-                <span class="method-start">37944 ms</span>
+                <span class="method-start">30937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38024 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">38183 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyUrl</span>
-                <span class="method-start">43107 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">43367 ms</span>
+                <span class="method-start">30946 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

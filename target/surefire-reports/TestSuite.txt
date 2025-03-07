@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 45.796 s <<< FAILURE! - in TestSuite
-com.main.testcases.AccountPageTest.verifyUrl  Time elapsed: 0.259 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://tutorialsninja.com/demo/index.php?route=account/accoun] but found [https://tutorialsninja.com/demo/index.php?route=account/account]
-	at com.main.testcases.AccountPageTest.verifyUrl(AccountPageTest.java:48)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.91 s -- in TestSuite

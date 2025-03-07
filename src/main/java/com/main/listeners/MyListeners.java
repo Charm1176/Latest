@@ -18,7 +18,7 @@ import com.main.utilities.ExtentReporter;
 import com.main.utilities.UtilityMethods;
 
  
-public class MyListeners  implements ITestListener  {
+public class MyListeners  extends ExtentReporter implements ITestListener  {
 	ExtentReports extentReport;
 	ExtentTest extentTest;
 	private static final Logger logger=LogManager.getLogger(MyListeners.class);
@@ -72,8 +72,9 @@ public class MyListeners  implements ITestListener  {
 
 	@Override
 	public void onFinish(ITestContext context) {
+		
 		extentReport.flush();
-		String pathOfExtentReport=System.getProperty("user.dir")+ "\\src\\main\\java\\Reports\\extentReport.html";
+		String pathOfExtentReport=System.getProperty("user.dir")+ "\\Reports\\"+"AutomationTestReport"+name+".html";
 			
 				File extentReport=new File(pathOfExtentReport);
 		try {

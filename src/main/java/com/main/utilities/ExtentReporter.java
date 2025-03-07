@@ -9,9 +9,10 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReporter {
+	public static String name;
 	
 	public static ExtentReports generateExtentReport() {
-		String name=UtilityMethods.getTime();
+		 name=UtilityMethods.getTime();
 		ExtentReports extentReport=new ExtentReports();
 		File extentReportFile=new File(System.getProperty("user.dir")+"\\Reports\\"+"AutomationTestReport"+name+".html");
 		ExtentSparkReporter sparkReporter=new ExtentSparkReporter(extentReportFile);
