@@ -3,15 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="com.main.listeners.MyListeners"/>
-    <listener class-name="com.main.analyzer.MyTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
       <class name="com.main.testcases.AccountPageTest">
         <methods>
-          <include name="checkingDesktopElement"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="verifyUrl"/>
         </methods>
       </class> <!-- com.main.testcases.AccountPageTest -->
     </classes>

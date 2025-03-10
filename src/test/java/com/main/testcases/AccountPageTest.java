@@ -46,6 +46,7 @@ public class AccountPageTest extends BaseTest{
 	public void verifyUrl() {
 		logger.info("Verify URl");
 		Assert.assertEquals(accountPage.getUrl(),prop.getProperty("accountPageUrl"));
+	
 	}
 	@Test(priority=1)
 	public void checkingAccountpageElement() {
