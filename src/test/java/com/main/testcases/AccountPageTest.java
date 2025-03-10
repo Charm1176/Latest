@@ -67,6 +67,7 @@ public class AccountPageTest extends BaseTest{
 		String title=driver.getTitle();
 		Assert.assertEquals(title, prop.getProperty("accountTitle"));
 		logger.info("AccountPage title Verified");
+		System.out.println("---------------");
 	}
 
 
