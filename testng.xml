@@ -4,7 +4,7 @@
 <listeners>
 
 <listener class-name="com.main.listeners.MyListeners"/>
-
+<listener class-name="com.main.analyzer.MyTransformer"/>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
