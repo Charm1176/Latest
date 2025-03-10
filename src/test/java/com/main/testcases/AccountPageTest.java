@@ -60,6 +60,14 @@ public class AccountPageTest extends BaseTest{
 		Assert.assertEquals(accountPage.isDeskTopSectionVisible(),true);
 		logger.info("Verified CheckingDesktopElement");
 	}
+	
+	
+	@Test(priority=4)
+	public void verifyTitle() {
+		String title=driver.getTitle();
+		Assert.assertEquals(title, prop.getProperty("accountTitle"));
+		logger.info("AccountPage title Verified");
+	}
 
 
 }
