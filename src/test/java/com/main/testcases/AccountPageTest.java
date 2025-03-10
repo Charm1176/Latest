@@ -69,6 +69,11 @@ public class AccountPageTest extends BaseTest{
 		logger.info("AccountPage title Verified");
 		System.out.println("---------------");
 	}
+	
+	@Test(priority=5)
+	public void checkingJust() {
+		Assert.assertTrue(true);
+	}
 
 
 }
